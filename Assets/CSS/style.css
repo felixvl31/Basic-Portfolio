@@ -228,7 +228,10 @@ h2{
     grid-template-columns: 275px 275px;
     grid-gap:10px 40px;
     color: #444;
-    position:relative; top:10px; left:38px;
+    position:relative; 
+    z-index: 1;
+    top:10px; 
+    left:38px;
   }
   .FirstGrid img{
       border-radius:5%;
@@ -237,7 +240,11 @@ h2{
     display: grid;
     grid-template-columns: 275px 275px;
     grid-gap:170px 40px;
-    position:absolute; top:350px; left:510px;
+    z-index: 2; 
+    position:relative; 
+    top:-472px; 
+    left:38px;
+
   }
   
   .box {
@@ -247,6 +254,7 @@ h2{
     font-size: 150%;
     text-align: center;
     padding:10px 0;
+ 
   }
 
 
