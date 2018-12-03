@@ -223,13 +223,21 @@ h2{
   ========================================
 */
 
-.wrapper {
+.FirstGrid {
     display: grid;
     grid-template-columns: 275px 275px;
-    grid-gap:40px;
-    background-color: #fff;
+    grid-gap:10px 40px;
     color: #444;
-    padding: 20px 0 0 40px;
+    position:relative; top:10px; left:38px;
+  }
+  .FirstGrid img{
+      border-radius:5%;
+  }
+  .OverlapGrid {
+    display: grid;
+    grid-template-columns: 275px 275px;
+    grid-gap:170px 40px;
+    position:absolute; top:350px; left:510px;
   }
   
   .box {
@@ -238,7 +246,7 @@ h2{
     border-radius: 1px;
     font-size: 150%;
     text-align: center;
-    padding-bottom:10px;
+    padding:10px 0;
   }
 
 
