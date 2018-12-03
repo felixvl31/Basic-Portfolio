@@ -71,7 +71,7 @@ header{
     padding: 30px 40px;
     font-size: 30px;
     display: inline;
-    float:left;
+    float: left;
 }
 
   ul {
@@ -215,6 +215,30 @@ h2{
   }
   .btn-default:hover {
     background:#36706d;
+  }
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 275px 275px;
+    grid-gap:40px;
+    background-color: #fff;
+    color: #444;
+    padding: 20px 0 0 40px;
+  }
+  
+  .box {
+    background-color:#4aaaa5;
+    color: #fff;
+    border-radius: 1px;
+    font-size: 150%;
+    text-align: center;
+    padding-bottom:10px;
   }
 
 
