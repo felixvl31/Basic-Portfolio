@@ -140,11 +140,6 @@ h2{
     border-bottom: 2px solid #cccccc;
     font-weight: bold;
 }
-.wrapper {
-    min-height: 100%;
-    margin-bottom: -10px;
-  }
-
 /*
   ========================================
   Bio
@@ -281,6 +276,6 @@ footer{
     border-top: 5px solid #4aaaa5;
 }
 
-.footer, {
-    height: 50px;
-  }
+.footer {
+    height: 15px;
+}
