@@ -126,7 +126,7 @@ li a:hover {
     padding:20px 0;
   }
 .fixedHeight{
-    height:500px;
+    /*height:500px;*/
   }
 h2{
     color: #4aaaa5;
@@ -232,9 +232,8 @@ h2{
     grid-template-columns: 275px 275px 275px;
     grid-gap:180px 30px;
     z-index: 2; 
-    position:relative;
-    top:-292px; 
-    left:35px;
+    position:absolute;
+    top:152px; 
     width:880px;
 }
 .box {
